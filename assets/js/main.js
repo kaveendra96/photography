@@ -310,7 +310,9 @@
             var exif = fetchExifData(img);
             var template = '';
             for (var info in exif) {
+    
                 if (info === "model") {
+                    console.log(exif);
                     template += '<i class="fa fa-camera-retro" aria-hidden="true"></i> ' + exif["model"] + '&nbsp;&nbsp;';
                 }
                 if (info === "aperture") {
