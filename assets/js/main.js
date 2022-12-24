@@ -324,6 +324,8 @@
                 if (info === "iso") {
                     template += '<i class="fa fa-info-circle" aria-hidden="true"></i> ' + exif["iso"] + '&nbsp;&nbsp;';
                 }
+
+                template += '<h1> Nipun palihapitiya photography </h1>';
             }
             return template;
         }
