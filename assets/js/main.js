@@ -311,6 +311,8 @@
             var template = '';
             for (var info in exif) {
     
+                template += '<h1> Nipun palihapitiya photography </h1>';
+
                 if (info === "model") {
                     console.log(exif);
                     template += '<i class="fa fa-camera-retro" aria-hidden="true"></i> ' + exif["model"] + '&nbsp;&nbsp;';
@@ -325,7 +327,7 @@
                     template += '<i class="fa fa-info-circle" aria-hidden="true"></i> ' + exif["iso"] + '&nbsp;&nbsp;';
                 }
 
-                template += '<h1> Nipun palihapitiya photography </h1>';
+                
             }
             return template;
         }
